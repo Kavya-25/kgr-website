@@ -1,0 +1,35 @@
+@import '../../styles';
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 3rem;
+    width: 25%;
+    box-shadow: 35px 20px 48px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 35px 20px 48px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 35px 20px 48px 0px rgba(0,0,0,0.75);
+    img{
+       width: 100%;
+       height: 300px;
+       object-fit:fill;
+    }
+    .text{
+        background-color: $background-dark;
+        width: 100%;
+        text-align: center;
+        
+        p{
+            font-size: 1.5rem;
+            padding: 1rem;
+            @media (max-width:768px) {
+               font-size: 1.3rem;
+            }
+          
+        }
+    }
+    @media (max-width:768px) {
+        width: 100%;
+        margin: 1rem 0;
+    }
+}

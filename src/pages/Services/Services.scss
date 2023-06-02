@@ -1,0 +1,41 @@
+@import '../../styles';
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .header-container{
+        height: 300px;
+        width: 100%;
+        background-image:
+        linear-gradient(45deg,
+          rgba(6, 6, 6, 0.648),
+          rgba(18, 18, 19, 0.75)), url(
+    'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    p{
+        font-size: 4rem;
+        text-transform: uppercase;
+        color: $gray-color;
+       
+    }
+    }
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        // justify-content: space-around;
+        justify-content: center;
+        padding: 4rem;
+        @media (max-width:768px) {
+            padding: 2rem 1rem;
+        }
+    
+    }
+}
