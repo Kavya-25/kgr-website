@@ -21,7 +21,7 @@ export const services=[
     },
     {
         id:5,
-        title:'Transformer & Servo Stabilizer Revinding',
+        title:'Transformer & Servo Stabilizer Rewinding',
         url:'https://5.imimg.com/data5/HE/KT/MY-1975608/oil-cooled-servo-stabilizers-15kva.jpg'
     },
     {

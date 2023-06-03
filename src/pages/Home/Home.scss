@@ -22,7 +22,9 @@ height: 80vh;
     align-items: center;
     justify-content: center;
     padding:4rem;
-    h3{
+    h2{
+        font-family: $font-cursive;
+        font-size: 2rem;
         @media (max-width:768px) {
             font-size: 1rem;
             text-align: center;
@@ -53,6 +55,7 @@ height: 80vh;
 }
 @media (max-width:768px) {
     height: 60vh;
+    padding:1rem 3rem;
 
 }
 
